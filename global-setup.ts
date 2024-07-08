@@ -9,7 +9,7 @@ async function globalSetup(config: FullConfig) {
   await page.waitForTimeout(1000);
   await page.getByRole('link', { name: 'Sign in', exact: true }).click();
   await page.waitForTimeout(1000);
-  await page.getByLabel('Enter your mobile number or').fill(process.env.USERNAME!);
+  await page.getByLabel('Enter your mobile number or').fill(process.env.USERID!);
   await page.getByLabel('Continue').click();
   await page.getByLabel('Password').fill(process.env.PASSWORD!);
   await page.getByLabel('Sign in').click();
