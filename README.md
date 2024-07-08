@@ -41,11 +41,17 @@ Install dependencies
 npm install
 ```
 #### Step 4
-Set env variables from terminal
+Set env variables from terminal for Mac OS
 ```bash
 export USERID=''
 export PASSWORD=''
 ```
+Set env variables from terminal for Windows
+```bash
+$env:USERID=''
+$env:PASSWORD=''
+```
+
 # Running Tests
 
 To execute all the test cases, use command
