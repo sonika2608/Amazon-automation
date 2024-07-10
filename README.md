@@ -12,8 +12,8 @@ This project contains automation code for Amazon website. Project is build using
 | Amazon-automation/test/                           | Test case files |
 | Amazon-automation/page/	                          | Class file for each feature |
 | Amazon-automation/playwright-report/	            | Test results |
-| Amazon-automation/global-setup.ts /               | Store login session |
-| Amazon-automation/playwright.config.ts	          | Configuration file for playwright test execution|
+| Amazon-automation/global-setup.js /               | Store login session |
+| Amazon-automation/playwright.config.js	          | Configuration file for playwright test execution|
 
 
 # Build with
@@ -50,6 +50,12 @@ Set env variables from terminal for Windows
 ```bash
 $env:USERID=''
 $env:PASSWORD=''
+```
+
+or create a file in root and save it as .env
+```bash
+USERID=''
+PASSWORD=''
 ```
 
 # Running Tests
